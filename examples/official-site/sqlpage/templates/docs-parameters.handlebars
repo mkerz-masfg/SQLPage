@@ -13,7 +13,7 @@
                         {{#if required}}<strong>Required</strong>{{/if}}
                     </small>
                 </dt>
-                <dd>{{{markdown description_md}}}</dd>
+                <dd>{{{markdown description_md}}}{{#if default_md}}<p><strong>Default</strong></p>{{{markdown default_md}}}{{/if}}</dd>
             </div>
         {{/each}}
     </dl>

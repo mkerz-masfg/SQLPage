@@ -2,6 +2,7 @@
 
 ## unreleased
 
+- The [configuration reference](https://sql-page.com/configuration) now lists server settings and their defaults directly from SQLPage. Search for a setting by name or link to it with a URL such as `/configuration#listen_on`.
 - Each `login` component’s labels target its own fields. Set `false AS autofocus` to keep the username field from taking focus when the page opens.
 - The official documentation now connects tutorials, component examples, and the function reference through shared navigation. Browse by task, open search with Ctrl+K or ⌘K, and share a link to a specific parameter. Code blocks have copy controls. Wide examples show SQL beside the live result.
 - JSON `shell` menu items with a link are now links in the accessibility tree instead of being announced as buttons; only submenu toggles keep `role="button"`.

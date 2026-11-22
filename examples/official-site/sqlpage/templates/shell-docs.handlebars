@@ -18,7 +18,7 @@
         <link rel="canonical" href="{{catalog_link}}">
         <link rel="stylesheet" href="/assets/docs/catalog.css">
         {{#if (eq section "Components")}}<link rel="stylesheet" href="/assets/docs/catalog-preview.css">{{/if}}
-    {{else if (or (eq section "Components") (eq section "Functions"))}}
+    {{else if (any (eq section "Components") (eq section "Functions") (eq section "Configuration"))}}
         <link rel="stylesheet" href="/assets/docs/reference.css">
     {{else if (any (eq section "Guides") (eq section "Documentation") (eq section "Examples"))}}
         <link rel="stylesheet" href="/assets/docs/guides.css">
@@ -102,7 +102,7 @@
             <a href="/blog.sql">Blog</a>
             <a href="/performance.sql">Performance</a>
             <a href="/safety.sql">Security</a>
-            <a href="https://github.com/sqlpage/SQLPage/blob/main/configuration.md">Configuration</a>
+            <a href="/configuration">Configuration</a>
             <a href="https://github.com/sqlpage/SQLPage/discussions">Community</a>
         </nav>
         <a href="#sqlpage_main_wrapper">{{icon_img "arrow-up" 16}} Back to top</a>
