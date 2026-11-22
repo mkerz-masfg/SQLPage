@@ -2,6 +2,8 @@
 
 ## unreleased
 
+- The official documentation now connects tutorials, component examples, and the function reference through a shared navigation menu and on-page section links.
+
 - The new [`status_bar` component](https://sql-page.com/component.sql?component=status_bar) displays short status messages and links along the bottom of the screen or inline with page content.
 - A file input with `multiple` now keeps every selected file, instead of only the last one. The new [`sqlpage.persist_uploaded_files`](https://sql-page.com/functions.sql?function=persist_uploaded_files) function saves them all and returns a JSON array with the `path`, original `name`, `mime_type` and `size` of each file.
 - Set `wrap` on a `big_number` component to show long titles and descriptions across multiple lines.
